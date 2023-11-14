@@ -49,8 +49,8 @@ for item in items:
     # ret, resized_image = cv2.threshold(src, 125, 255, cv2.THRESH_BINARY)
     # kernel = np.ones((5, 5), np.uint8)
     # morphology = cv2.morphologyEx(src, cv2.MORPH_CLOSE, kernel, iterations=2)
-    cv2.imwrite(item, resized_image)
-
+    # cv2.imwrite(item, resized_image)
+    
 
 
 
